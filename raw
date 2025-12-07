@@ -1,0 +1,13 @@
+ Quick Project Structure
+├── index.html              # Entry HTML            ...
+├── package.json            # Dependencies         ......
+├── vite.config.ts          # Build config          .....
+├── tailwind.config.ts      # CSS config         ..........
+├── src/
+│   ├── main.tsx            # React entry point
+│   ├── App.tsx             # Router setup @
+│   ├── index.css           # Global styles @
+│   ├── pages/
+│   │   └── Index.tsx       # ⭐ MAIN APP FILE (configure Firebase here!)
+│   └── components/ui/      # Shadcn UI components
+└── public/                 # Static 
